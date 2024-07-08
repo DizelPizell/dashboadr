@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>dashboard</title>
+    <title>Сайдбар</title>
 
 </head>
 <body>
 <div class="container">
-    <div>Тестовое содержимое</div>
+    <div class="content">Тестовое содержимое</div>
+    <!--sidebar-->
     <div class="sidebar">
         <div class="sidebar__title sidebar__column-item--shadow">
             <div class="sidebar__title__value">Личный дашборд</div>
             <div class="sidebar__title__icons">
                 <div class="sidebar__title__icon">
-                    <img class="sidebar__title__icon--plus" src="./svg/plus-circle.svg" alt=""  width="24px" height="24px">
+                    <img class="sidebar__title__icon--plus" src="svg/plus-circle.svg" alt=""  width="24px" height="24px">
                 </div>
                 <div class="sidebar__title__icon">
-                    <img class="sidebar__title__icon--gear" src="./svg/settings.svg" alt="" width="24px" height="24px" >
+                    <img class="sidebar__title__icon--gear" src="svg/settings.svg" alt="" width="24px" height="24px" >
                 </div>
             </div>
         </div>
         <div class="sidebar__column-item sidebar__column-item--shadow">
             <div class="sidebar__content-title">Сервисы</div>
-            <div class="sidebar__content-services">
+            <div class="sidebar__content-services sidebar__content-scroll">
                 <div class="sidebar__content-service">
                     <div class="sidebar__content-service--icon">
                         <div class="sidebar__content-service--opacity"></div>
@@ -47,7 +49,7 @@
                     <div class="sidebar__content-service--icon">
                         <div class="sidebar__content-service--opacity"></div>
                     </div>
-                    <div class="sidebar__content-service--name">Сервис 54</div>
+                    <div class="sidebar__content-service--name">Сервис 4</div>
                 </div>
                 <div class="sidebar__content-service">
                     <div class="sidebar__content-service--icon">
@@ -61,99 +63,275 @@
                     </div>
                     <div class="sidebar__content-service--name">Сервис 6</div>
                 </div>
+                <div class="sidebar__content-service">
+                    <div class="sidebar__content-service--icon">
+                        <div class="sidebar__content-service--opacity"></div>
+                    </div>
+                    <div class="sidebar__content-service--name">Сервис 7</div>
+                </div>
+                <div class="sidebar__content-service">
+                    <div class="sidebar__content-service--icon">
+                        <div class="sidebar__content-service--opacity"></div>
+                    </div>
+                    <div class="sidebar__content-service--name">Сервис 8</div>
+                </div>
             </div>
 
         </div>
         <div class="sidebar__column-spacer"></div>
         <div class="sidebar__column-item sidebar__column-item--shadow">
             <div class="sidebar__content-title">Чаты</div>
-            <div class="sidebar__content-chats sidebar__content--shadow">
-                <div class="sidebar__content-chat">
-                    <div class="sidebar__content-chat__chat__img__container">
-                        <img class="sidebar__content-chat__chat-img" src="./svg/avatar.svg" width="48px" height="48px">
-                    </div>
+            <div class="sidebar__content-chats-list sidebar__content-scroll">
+                <div class="sidebar__content-chats sidebar__content--shadow">
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/image3.svg" width="48px" height="48px">
+                        </div>
 
-                    <div class="sidebar__content-chat__chat-property">
-                        <div class="sidebar__content-chat__chat--icon"></div>
-                        <div class="sidebar__content-chat__chat--name">Групповой чат</div>
-                    </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат</div>
+                        </div>
 
+                    </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/avatar.svg" width="48px" height="48px">
+                        </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат с длинным названием ( о чем - то)</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/image3.svg" width="48px" height="48px">
+                        </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат 3</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
                 </div>
-                <div class="sidebar__content-chat__chat-spacer"></div>
-                <div class="sidebar__content-chat">
-                    <div class="sidebar__content-chat__chat__img__container">
-                        <img class="sidebar__content-chat__chat-img" src="./svg/image.svg" width="48px" height="48px">
+                <div class="sidebar__content-chats sidebar__content--shadow">
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/avatar.svg" width="48px" height="48px">
+                        </div>
+
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат</div>
+                        </div>
+
                     </div>
-                    <div class="sidebar__content-chat__chat-property">
-                        <div class="sidebar__content-chat__chat--icon"></div>
-                        <div class="sidebar__content-chat__chat--name">Групповой чат с длинным названием ( о чем - то)</div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/image3.svg" width="48px" height="48px">
+                        </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат с длинным названием ( о чем - то)</div>
+                        </div>
                     </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/image.svg" width="48px" height="48px">
+                        </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат 3</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
                 </div>
-                <div class="sidebar__content-chat__chat-spacer"></div>
-                <div class="sidebar__content-chat">
-                    <div class="sidebar__content-chat__chat__img__container">
-                        <img class="sidebar__content-chat__chat-img" src="./svg/image3.svg" width="48px" height="48px">
+                <div class="sidebar__content-chats sidebar__content--shadow">
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/image.svg" width="48px" height="48px">
+                        </div>
+
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат</div>
+                        </div>
+
                     </div>
-                    <div class="sidebar__content-chat__chat-property">
-                        <div class="sidebar__content-chat__chat--icon"></div>
-                        <div class="sidebar__content-chat__chat--name">Групповой чат 3</div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/image3.svg" width="48px" height="48px">
+                        </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат с длинным названием ( о чем - то)</div>
+                        </div>
                     </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
+                    <div class="sidebar__content-chat">
+                        <div class="sidebar__content-chat__chat__img__container">
+                            <img class="sidebar__content-chat__chat-img" src="svg/avatar.svg" width="48px" height="48px">
+                        </div>
+                        <div class="sidebar__content-chat__chat-property">
+                            <div class="sidebar__content-chat__chat--icon"></div>
+                            <div class="sidebar__content-chat__chat--name">Групповой чат 3</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-chat__chat-spacer"></div>
                 </div>
-                <div class="sidebar__content-chat__chat-spacer"></div>
             </div>
         </div>
         <div class="sidebar__column-spacer"></div>
         <div class="sidebar__column-item  sidebar__column-item--shadow">
+
             <div class="sidebar__content-title">Контакты</div>
-            <div class="sidebar__content-contacts sidebar__content--shadow">
-                <div class="sidebar__content-contact">
-                    <div class="sidebar__content-contact__contact__img__container">
-                        <img class="sidebar__content-contact__contact-img" src="./svg/avatar1.svg" width="48px" height="48px">
-                    </div>
-                    <div  class="sidebar__content-contact__contact-property">
-                        <div class="sidebar__content-contact__contact--name-contact">
-                            <div class="sidebar__content-contact__contact--icon"></div>
-                            <div class="sidebar__content-contact__contact--name">Светлова Ирина</div>
+          <!---  <div class="sidebar__content-arrow__bg sidebar__content-arrow__bg--arrow-left">
+                <div class="sidebar__content-arrow"> < </div>
+            </div>
+            <div class="sidebar__content-arrow__bg sidebar__content-arrow__bg--arrow-right">
+                <div class="sidebar__content-arrow"> > </div>
+            </div>-->
+            <div class="sidebar__content-contacts-list sidebar__content-scroll" >
+
+                <div class="sidebar__content-contacts sidebar__content--shadow">
+
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar1.svg" width="48px" height="48px">
                         </div>
-                        <div class="sidebar__content-contact__contact--description-contact">Дизайнер, express.ms</div>
-                    </div>
-                </div>
-                <div class="sidebar__content-contact__contact-spacer"></div>
-                <div class="sidebar__content-contact">
-                    <div class="sidebar__content-contact__contact__img__container">
-                        <img class="sidebar__content-contact__contact-img" src="./svg/avatar2.svg" width="48px" height="48px">
-                    </div>
-                    <div  class="sidebar__content-contact__contact-property">
-                        <div class="sidebar__content-contact__contact--name-contact">
-                            <div class="sidebar__content-contact__contact--icon"></div>
-                            <div class="sidebar__content-contact__contact--name">Денисова Наталья</div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Светлова Ирина</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Дизайнер, express.ms</div>
                         </div>
-                        <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
                     </div>
-                </div>
-                <div class="sidebar__content-contact__contact-spacer"></div>
-                <div class="sidebar__content-contact">
-                    <div class="sidebar__content-contact__contact__img__container">
-                        <img class="sidebar__content-contact__contact-img" src="./svg/avatar3.svg" width="48px" height="48px">
-                    </div>
-                    <div  class="sidebar__content-contact__contact-property">
-                        <div class="sidebar__content-contact__contact--name-contact">
-                            <div class="sidebar__content-contact__contact--icon"></div>
-                            <div class="sidebar__content-contact__contact--name">Смирнова Екатерина</div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar2.svg" width="48px" height="48px">
                         </div>
-                        <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Денисова Наталья</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        </div>
                     </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar3.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Смирнова Екатерина</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
                 </div>
-                <div class="sidebar__content-contact__contact-spacer"></div>
+                <div class="sidebar__content-contacts sidebar__content--shadow">
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar2.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Светлова Ирина</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Дизайнер, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar1.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Денисова Наталья</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar3.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Смирнова Екатерина</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                </div>
+                <div class="sidebar__content-contacts sidebar__content--shadow" >
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar2.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Светлова Ирина</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Дизайнер, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar1.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Денисова Наталья</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                    <div class="sidebar__content-contact">
+                        <div class="sidebar__content-contact__contact__img__container">
+                            <img class="sidebar__content-contact__contact-img" src="svg/avatar3.svg" width="48px" height="48px">
+                        </div>
+                        <div  class="sidebar__content-contact__contact-property">
+                            <div class="sidebar__content-contact__contact--name-contact">
+                                <div class="sidebar__content-contact__contact--icon"></div>
+                                <div class="sidebar__content-contact__contact--name">Смирнова Екатерина</div>
+                            </div>
+                            <div class="sidebar__content-contact__contact--description-contact">Руководитель подразделения, express.ms</div>
+                        </div>
+                    </div>
+                    <div class="sidebar__content-contact__contact-spacer"></div>
+                </div>
             </div>
             <div class="sidebar__content-contact__contact-paginator">
                 <div class="sidebar__content-contact__contact-paginator--active"></div>
                 <div class="sidebar__content-contact__contact-paginator--inactive"></div>
                 <div class="sidebar__content-contact__contact-paginator--inactive"></div>
             </div>
+
         </div>
     </div>
 </div>
+    <!--sidebar-->
 </div>
 </body>
-</html>
